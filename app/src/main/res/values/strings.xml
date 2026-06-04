@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lost &amp; Found FICT</string>
+    <string name="login_subtitle">Sign in to your account</string>
+    <string name="register_title">Create Account</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Create Account</string>
+    <string name="btn_google">Continue with Google</string>
+    <string name="btn_anonymous">Continue as Guest</string>
+    <string name="or_continue_with">— or continue with —</string>
+    <string name="tv_go_to_register">Don\'t have an account? Register</string>
+    <string name="tv_go_to_login">Already have an account? Sign in</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="facebook_app_id">0</string>
+    <string name="facebook_client_token">0</string>
+    <string name="default_web_client_id">452128789133-3qhddns00jdmn7mcsntdirf9sc5bge2l.apps.googleusercontent.com</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_items">Items</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_detail">Detail</string>
+
+    <string name="home_welcome">Welcome to Lost &amp; Found FICT</string>
+    <string name="btn_sign_out">Sign Out</string>
+
+    <!-- Items -->
+    <string name="tab_all">All</string>
+    <string name="tab_lost">Lost</string>
+    <string name="tab_found">Found</string>
+    <string name="no_items_found">No items found</string>
+    <string name="add_item_title">Report Item</string>
+    <string name="type_lost">Lost</string>
+    <string name="type_found">Found</string>
+    <string name="hint_item_title">Item title</string>
+    <string name="hint_item_description">Description</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_location">Location (e.g. Room 204)</string>
+    <string name="btn_submit">Submit</string>
+    <string name="item_added_success">Item reported successfully!</string>
+
+    <!-- Categories array -->
+    <string-array name="item_categories">
+        <item>Keys</item>
+        <item>Wallet</item>
+        <item>Phone</item>
+        <item>Laptop</item>
+        <item>Bag</item>
+        <item>ID Card</item>
+        <item>Glasses</item>
+        <item>Headphones</item>
+        <item>Clothing</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="no_location">No location specified</string>
+    <string name="no_saved_items">No saved items yet</string>
+    <string name="btn_mark_resolved">Mark as Resolved</string>
+    <string name="btn_delete">Delete Item</string>
+    <string name="added_to_saved">Added to saved!</string>
+    <string name="removed_from_saved">Removed from saved</string>
+    <string name="marked_resolved">Marked as resolved!</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="camera_hint">Add a photo of the found item</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="image_uploaded">Image uploaded successfully!</string>
+
+    <string name="greeting">Hello, %1$s! 👋</string>
+    <string name="greeting_sub">Find what you\'ve lost at FICT</string>
+    <string name="stats_title">Overview</string>
+    <string name="stat_total">Total</string>
+    <string name="stat_lost">Lost</string>
+    <string name="stat_found">Found</string>
+    <string name="stat_resolved">Resolved</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="report_lost">Report Lost</string>
+    <string name="report_found">Report Found</string>
+    <string name="view_all">View All</string>
+    <string name="recent_items">Recent Items</string>
+    <string name="no_recent_items">No items yet. Be the first!</string>
+    <string name="my_stats">My Activity</string>
+    <string name="guest">Guest</string>
+    <string name="guest_desc">Browsing anonymously</string>
+    <string name="night_mode">Dark Mode</string>
+
+</resources>
