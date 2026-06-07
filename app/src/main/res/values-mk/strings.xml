@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Изгубено и Најдено ФИКТ</string>
+    <string name="login_subtitle">Најави се во твојот профил</string>
+    <string name="register_title">Создај профил</string>
+    <string name="hint_email">Е-пошта</string>
+    <string name="hint_password">Лозинка</string>
+    <string name="hint_name">Целосно ime</string>
+    <string name="hint_confirm_password">Потврди лозинка</string>
+    <string name="btn_login">Најави се</string>
+    <string name="btn_register">Регистрирај се</string>
+    <string name="btn_google">Продолжи со Google</string>
+    <string name="btn_anonymous">Продолжи како гостин</string>
+    <string name="or_continue_with">— или продолжи со —</string>
+    <string name="tv_go_to_register">Немаш профил? Регистрирај се</string>
+    <string name="tv_go_to_login">Веќе имаш профил? Најави се</string>
+    <string name="error_empty_fields">Пополни ги сите полиња</string>
+    <string name="error_password_mismatch">Лозинките не се совпаѓаат</string>
+    <string name="error_password_short">Лозинката мора да има барем 6 знаки</string>
+
+    <!-- Навигација -->
+    <string name="nav_home">Почеток</string>
+    <string name="nav_items">Предмети</string>
+    <string name="nav_add">Додади</string>
+    <string name="nav_saved">Зачувани</string>
+    <string name="nav_profile">Профил</string>
+    <string name="nav_detail">Детали</string>
+
+    <string name="home_welcome">Добредојде во Изгубено и Најдено ФИКТ</string>
+    <string name="btn_sign_out">Одјави се</string>
+
+
+    <!-- Предмети -->
+    <string name="tab_all">Сите</string>
+    <string name="tab_lost">Изгубени</string>
+    <string name="tab_found">Најдени</string>
+    <string name="no_items_found">Нема огласи</string>
+    <string name="add_item_title">Пријави предмет</string>
+    <string name="type_lost">Изгубен</string>
+    <string name="type_found">Најден</string>
+    <string name="hint_item_title">Наслов на предметот</string>
+    <string name="hint_item_description">Опис</string>
+    <string name="hint_category">Категорија</string>
+    <string name="hint_location">Локација (пр. Сала 204)</string>
+    <string name="btn_submit">Поднеси</string>
+    <string name="item_added_success">Предметот е успешно пријавен!</string>
+
+    <string-array name="item_categories">
+        <item>Клучеви</item>
+        <item>Паричник</item>
+        <item>Телефон</item>
+        <item>Лаптоп</item>
+        <item>Торба</item>
+        <item>Лична карта</item>
+        <item>Очила</item>
+        <item>Слушалки</item>
+        <item>Облека</item>
+        <item>Друго</item>
+    </string-array>
+
+    <string name="no_location">Нема локација</string>
+    <string name="no_saved_items">Нема зачувани огласи</string>
+    <string name="btn_mark_resolved">Означи како решено</string>
+    <string name="btn_delete">Избриши оглас</string>
+    <string name="added_to_saved">Зачувано!</string>
+    <string name="removed_from_saved">Отстрането од зачувани</string>
+    <string name="marked_resolved">Означено како решено!</string>
+    <string name="btn_take_photo">Сними слика</string>
+    <string name="camera_hint">Додај слика на најдениот предмет</string>
+    <string name="camera_permission_denied">Дозволата за камера е одбиена</string>
+    <string name="image_uploaded">Сликата е прикачена успешно!</string>
+
+    <string name="greeting">Здраво, %1$s! 👋</string>
+    <string name="greeting_sub">Најди го она што го загубил на ФИКТ</string>
+    <string name="stats_title">Преглед</string>
+    <string name="stat_total">Вкупно</string>
+    <string name="stat_lost">Изгубени</string>
+    <string name="stat_found">Најдени</string>
+    <string name="stat_resolved">Решени</string>
+    <string name="quick_actions">Брзи акции</string>
+    <string name="report_lost">Пријави изгубен</string>
+    <string name="report_found">Пријави најден</string>
+    <string name="view_all">Види ги сите</string>
+    <string name="recent_items">Најнови огласи</string>
+    <string name="no_recent_items">Нема огласи. Биди прв!</string>
+    <string name="my_stats">Моја активност</string>
+    <string name="guest">Гостин</string>
+    <string name="guest_desc">Прелистување анонимно</string>
+    <string name="night_mode">Темен режим</string>
+    <string name="comments">Коментари</string>
+    <string name="no_comments">Нема коментари. Биди прв!</string>
+    <string name="hint_comment">Напиши коментар...</string>
+    <string name="btn_send">Испрати</string>
+    <string name="error_empty_comment">Коментарот не може да биде празен</string>
+
+</resources>

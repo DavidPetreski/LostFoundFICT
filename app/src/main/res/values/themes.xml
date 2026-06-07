@@ -5,6 +5,9 @@
         <item name="colorOnPrimary">#FFFFFF</item>
         <item name="colorSecondary">#43A047</item>
         <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
     </style>
     <style name="Theme.LostFoundFICT" parent="Base.Theme.LostFoundFICT"/>
 </resources>

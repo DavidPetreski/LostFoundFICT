@@ -90,5 +90,10 @@
     <string name="guest">Guest</string>
     <string name="guest_desc">Browsing anonymously</string>
     <string name="night_mode">Dark Mode</string>
+    <string name="comments">Comments</string>
+    <string name="no_comments">No comments yet. Be the first!</string>
+    <string name="hint_comment">Write a comment...</string>
+    <string name="btn_send">Send</string>
+    <string name="error_empty_comment">Comment cannot be empty</string>
 
 </resources>

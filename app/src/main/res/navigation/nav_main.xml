@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.lostfoundfict.ui.home.HomeFragment"
+        android:label="@string/nav_home"/>
+
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.example.lostfoundfict.ui.item.ItemListFragment"
+        android:label="@string/nav_items"/>
+
+    <fragment
+        android:id="@+id/addItemFragment"
+        android:name="com.example.lostfoundfict.ui.item.AddItemFragment"
+        android:label="@string/nav_add"/>
+
+    <fragment
+        android:id="@+id/savedItemsFragment"
+        android:name="com.example.lostfoundfict.ui.saved.SavedItemsFragment"
+        android:label="@string/nav_saved"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.lostfoundfict.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile"/>
+
+    <!-- Detail екран — се отвора од ItemList -->
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.example.lostfoundfict.ui.item.ItemDetailFragment"
+        android:label="@string/nav_detail">
+        <argument
+            android:name="itemId"
+            app:argType="string"/>
+    </fragment>
+
+    <!-- Акции за навигација -->
+    <action
+        android:id="@+id/action_itemList_to_detail"
+        app:destination="@id/itemDetailFragment"/>
+
+    <action
+        android:id="@+id/action_home_to_detail"
+        app:destination="@id/itemDetailFragment"/>
+
+</navigation>
